@@ -9,13 +9,13 @@ export default function updateStudentGradeByCity(listOfStudents, city, newGrades
 
       if (gradeValue) {
         return {
-	  ...student,
-	  grade: gradeValue.grade,
+          ...student,
+          grade: gradeValue.grade,
         };
       }
       return {
-	...student,
-	grade: 'N/A',
+        ...student,
+        grade: 'N/A',
       };
     });
 }
