@@ -3,7 +3,7 @@ const path = require('path');
 
 function countStudents(filePath) {
   const resolvedPath = path.resolve(filePath);
-  
+
   if (!fs.existsSync(resolvedPath)) {
     throw new Error('Cannot load the database');
   }
@@ -39,4 +39,3 @@ function countStudents(filePath) {
 }
 
 module.exports = countStudents;
-
