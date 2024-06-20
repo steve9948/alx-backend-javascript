@@ -1,12 +1,20 @@
 {
-    "scripts": {
-        "test": "mocha"
-    },
-    "devDependencies": {
-        "mocha": "^8.4.0"
-    },
-    "dependencies": {
-        "chai": "^4.4.1",
-        "sinon": "^17.0.1"
-    }
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "mocha": "^8.4.0"
+  },
+  "dependencies": {
+    "chai": "^4.4.1",
+    "sinon": "^17.0.1"
+  },
+  "name": "0x06-unittests_in_js",
+  "description": "0x06. Unittests in JS",
+  "version": "1.0.0",
+  "main": "0-calcul.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
